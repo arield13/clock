@@ -1,0 +1,13 @@
+<div class="content">
+    <div class="clock">
+        <div class="wrap">
+            <span class="hour">{{(timer$ | async).value | date: 'hh' }}</span>
+             <span class="separator">:</span>
+            <span class="minute">{{(timer$ | async).value | date: 'mm' }}</span>
+             <span class="separator">:</span>
+            <span class="second">{{(timer$ | async).value | date: 'ss' }}</span>
+            <span class="separator">:</span>
+            <span class="second">{{(timer$ | async).value | date: 'aa' }}</span>
+        </div>
+    </div>
+</div>

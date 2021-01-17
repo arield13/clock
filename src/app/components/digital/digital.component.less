@@ -1,0 +1,53 @@
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.clock {
+    background: black;
+    font-family: "Montserrat";
+    border: 5px solid white;
+    box-shadow: inset 2px 3px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.wrap {
+overflow: hidden;
+position: relative;
+width: 300px;
+height: 100px;
+padding-right: 15px;
+}
+
+.minute,
+.hour,
+.second {
+    position: relative;
+    color: red;
+    margin: auto;
+    transform-origin: bottom center;
+    font-size: 50px;
+    padding-left: 17px;
+    line-height: 100px;
+}
+
+.minute {
+position: relative;
+left: 0;
+color: red;
+}
+
+.second {
+    position: relative;
+    left: 0;
+    color: red;
+}
+.separator{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    line-height: 90px;
+    
+}

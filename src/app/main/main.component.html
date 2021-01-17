@@ -1,0 +1,14 @@
+<div class="flexbox-container">
+	<div class="flexbox-item flexbox-left">
+        <app-analog></app-analog>
+    </div>
+	<div class="flexbox-item flexbox-right">
+        <app-digital></app-digital>
+    </div>
+    
+</div>
+<div class="setting_content">
+    <input type="time" [(ngModel)]="_time">
+    <button class="change_time" (click)="changeTime()">UPDATE TIME</button>
+    <button class="reset_time" (click)="reset()">RESET TIME</button>
+</div>
